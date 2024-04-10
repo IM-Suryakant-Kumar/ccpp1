@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts",
     "build": "tsc",
@@ -12,14 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.24.4",
-    "@babel/node": "^7.23.9",
-    "@babel/preset-env": "^7.24.4",
     "@types/node": "^20.12.7",
     "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2"
-  },
-  "dependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.4"
   }
 }
