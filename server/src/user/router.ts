@@ -6,10 +6,10 @@ import { users } from "./db";
 import { User } from "./types";
 
 export const userRouter = router({
-	getUser: publicProcedure.query(() => {
+	getUsers: publicProcedure.query(() => {
 		return users;
 	}),
-	getUserByid: publicProcedure
+	getUserById: publicProcedure
 		.input((val: unknown) => {
 			if (typeof val === "string") return val;
 			throw new Error(`Invalid input: ${typeof val}`);
