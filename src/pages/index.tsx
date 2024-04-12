@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+import EventNews from "~/components/EventNews";
 import Header from "~/components/Header";
 
 import { api } from "~/utils/api";
@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <EventNews />
         <h1>Guestbook</h1>
       </main>
     </>
