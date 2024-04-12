@@ -4,7 +4,7 @@ import { api } from "~/utils/api";
 
 export default function Home() {
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
-
+  
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Guestbook</h1>
+        <h1>{hello.data?.greeting}</h1>
       </main>
     </>
   );

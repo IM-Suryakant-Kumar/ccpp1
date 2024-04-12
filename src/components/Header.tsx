@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="px-3">
+    <header className="px-3 py-1">
       {/* action links */}
       <ul className="flex justify-end gap-3">
         <li>
