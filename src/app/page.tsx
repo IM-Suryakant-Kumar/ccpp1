@@ -27,7 +27,7 @@ export default function HomePage() {
       </section>
       <section className="flex items-center justify-center md:flex-1">
         <Image
-          className="w-full max-w-44 object-contain"
+          className="h-72 w-full max-w-44 object-contain md:h-auto"
           src="/hero.svg"
           alt="hero image"
           width={100}
