@@ -14,6 +14,7 @@ export default function HomePage() {
         />
         <h1 className="text-logo font-cinzel mt-2 text-2xl font-semibold">
           CCPP1
+          
         </h1>
         <p className="max-w-xs text-gray-600">
           Connect and share your thought and snaps with friend and community
