@@ -3,7 +3,6 @@ import "~/styles/globals.css";
 import { type Metadata } from "next";
 import { Josefin_Sans, Cinzel } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
-import Header from "~/components/Header";
 
 export const metadata: Metadata = {
   title: "CCPP1",
@@ -28,10 +27,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" className={`${josefin.variable} ${cinzel.variable}`}>
-        <body>
-          <Header />
-          {children}
-        </body>
+        <body>{children}</body>
       </html>
     </ClerkProvider>
   );

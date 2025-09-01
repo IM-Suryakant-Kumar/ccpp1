@@ -3,12 +3,13 @@
 :root {
   --primary: #ffffff;
   --secondary: #000000;
-  --logo: #ffa500;
+  --logo: #ff4500;
 }
 
 @theme {
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-logo: var(--logo);
   --font-josefin: var(--font-josefin);
   --font-cinzel: var(--font-cinzel);
 }
